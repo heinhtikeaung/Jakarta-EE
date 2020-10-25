@@ -1,0 +1,21 @@
+<!DOCTYPE html > 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head></h:head> 
+<body> 
+
+	<h:form>
+		
+		<h:outputText value="Enter String" />
+		<h:inputText value="#{helloBeans.name}" />
+	
+		<h:commandButton value="Click Me" action="#{helloBeans.save()}" ></h:commandButton>
+	</h:form>
+	
+	<h:outputLabel value="#{helloBeans.name}" />
+
+</body> 
+</html>
