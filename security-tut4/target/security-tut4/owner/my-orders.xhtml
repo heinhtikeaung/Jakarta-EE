@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:cover="http://xmlns.jcp.org/jsf/composite/owner-components">
+
+	<ui:composition template="/WEB-INF/template.xhtml">
+	
+		<ui:define name="title">
+			<h:outputText value=" Shop | #{myShopBean.shop.name}" />
+		</ui:define>
+		
+		<ui:define name="content">
+			
+			<cover:shop-cover menu="orders"></cover:shop-cover>
+			
+		</ui:define>
+		
+	</ui:composition>
+</html>

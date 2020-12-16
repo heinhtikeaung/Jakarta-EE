@@ -1,0 +1,56 @@
+/* Error Message */
+.alert ul{
+	list-style: none
+}
+
+/* Home Page */
+.cover-image{
+	width: 100% !important;
+	height: 280px;
+}
+
+/* My Shop */
+.myShop-cover{
+	height: 280px;
+	width: 100%;
+}
+
+.shop-cover-container{
+	position: relative;
+}
+
+.shop-title{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+.upload-cover{
+	position: absolute;
+	bottom: 14px;
+	right: 20px;
+}
+
+.camera-btn,
+.edit-btn{
+	background-color: white;
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 30px;
+	border: none;
+	padding: 2px;
+	border-radius: 50%;	
+}
+
+.edit-shop{
+	position: absolute;
+	bottom: 14px;
+	right: 55px;
+}
+
+.edit-form{
+	position: absolute;
+	bottom: 20%;
+	left: 40%;
+}
