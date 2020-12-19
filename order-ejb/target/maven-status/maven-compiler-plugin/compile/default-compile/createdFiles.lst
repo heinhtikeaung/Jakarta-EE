@@ -1,0 +1,10 @@
+com\hha\orders\model\service\CategoryService.class
+com\hha\orders\model\service\BrandService.class
+com\hha\orders\AppConfig.class
+com\hha\orders\EncodingFilter.class
+com\hha\orders\model\entity\Category.class
+com\hha\orders\model\entity\Item.class
+com\hha\orders\bean\ProductBean.class
+com\hha\orders\model\entity\Brand.class
+com\hha\orders\model\entity\Product.class
+com\hha\orders\model\service\ProductService.class
