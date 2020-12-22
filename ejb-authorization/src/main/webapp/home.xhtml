@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"> 
+
+<h:head></h:head> 
+<body> 
+
+	<h4>Member Home</h4>
+	
+	<h:form>
+		<h:commandLink action="#{authorizationBean.forAdmin()}" value="For Admin" />
+		<br />
+		<h:commandLink action="#{authorizationBean.forMember()}" value="For Member" />
+		<br />
+		<h:commandButton action="#{authorizationBean.logout()}" value="Logout" />
+	</h:form>
+
+</body> 
+</html>
